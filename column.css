@@ -47,6 +47,7 @@ p{
 }
 .sed{
 	background-color:hsl(31, 77%, 52%);
+       border-radius: 10px 10px 0 0;
 	
 	
 	
@@ -58,7 +59,7 @@ p{
 }
 .lux{
 	background-color:hsl(179, 100%, 13%);
-	
+        border-radius:0 0 10px 10px;
 	
 }
 button{
@@ -96,13 +97,7 @@ button:hover{
 		padding:1rem;
 
 	}
-.sed{
-		border-radius:10px 10px 0px 0px;
 	}
-
-.lux{
-		border-radius:0px 0px 10px 10px;
-	}	}
 	@media screen and (min-width:768px){
 	main {
 		justify-content:center;
@@ -113,6 +108,6 @@ button:hover{
 		border-radius:10px 0 0 10px;
 	}
 	.lux{
-		border-radius:0px 10px 10px 0px;
+		border-radius:0 10px 10px 0;
 	}
 	}
