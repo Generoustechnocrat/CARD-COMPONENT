@@ -95,7 +95,13 @@ button:hover{
 		flex-flow:row wrap;
 		padding:1rem
 	}
+.sed{
+		border-radius:10px 10px 0 0;
 	}
+
+.lux{
+		border-radius:0 0 10px 10px;
+	}	}
 	@media screen and (min-width:768px){
 	main {
 		justify-content:center;
