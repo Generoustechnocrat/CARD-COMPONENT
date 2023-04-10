@@ -19,7 +19,7 @@ h1{
 	
 	font-weight:700;
 	font-family: 'Big Shoulders Display', cursive;
-	font-size:25px;
+	font-size:30px;
 	color:hsl(0, 0%, 95%);
 	margin-top:20px;
 	margin-bottom:20px;
@@ -31,7 +31,6 @@ p{
 	font-weight:400;
 	font-family: 'Fraunces', serif;
 	font-family: 'Lexend Deca', sans-serif;
-	font-family: 'Big Shoulders Display', cursive;
 	margin-bottom:80px;
 	line-height:1.5rem;
 	
@@ -106,7 +105,7 @@ h1{
 	color:hsl(0, 0%, 95%);
 	font-weight:700;
 	font-family: 'Big Shoulders Display', cursive;
-	font-size:25px;
+	font-size:30px;
 	text-transform:uppercase;
 	margin-top:20px;
 	margin-bottom:20px;
@@ -141,7 +140,6 @@ p{
 	font-weight:400;
 	font-family: 'Fraunces', serif;
 	font-family: 'Lexend Deca', sans-serif;
-	font-family: 'Big Shoulders Display', cursive;
 	margin-bottom:50px;
 	
 }
