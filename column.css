@@ -93,20 +93,21 @@ button:hover{
 	main {
 		justify-content:center;
 		flex-flow:row wrap;
-		padding:1rem
+		padding:1rem;
+
 	}
 .sed{
-		border-radius:10px 10px 0 0;
+		border-radius:10px 10px 0px 0px;
 	}
 
 .lux{
-		border-radius:0 0 10px 10px;
+		border-radius:0px 0px 10px 10px;
 	}	}
 	@media screen and (min-width:768px){
 	main {
 		justify-content:center;
 		flex-flow:row;
-		padding:1rem
+		padding:1rem;
 	}
 	.sed{
 		border-radius:10px 0 0 10px;
