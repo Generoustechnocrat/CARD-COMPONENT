@@ -3,7 +3,7 @@
 	padding:0;
 	box-sizing:border-box;
 }
-@media screen and (min-width: 768px){
+
 body{
 	background-color: hsl(0, 0%, 95%);
 }
@@ -85,7 +85,7 @@ button:hover{
     footer a {
 		color: hsl(228, 45%, 44%); 
 		}
-}
+
 @media screen and (max-width: 767px){
 	body{
 	background-color: hsl(0, 0%, 95%);
