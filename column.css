@@ -1,0 +1,111 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+	
+body{
+	background-color: hsl(0, 0%, 95%);
+	height:100vh;
+	max-width:100%;
+	display:grid;
+	place-items: center;
+	
+	
+}
+main{
+	display:flex;
+	flex-direction:column;
+	padding:20px;
+	
+}
+	
+h1{
+	
+	font-weight:700;
+	font-family: 'Big Shoulders Display', cursive;
+	font-size:30px;
+	color:hsl(0, 0%, 95%);
+	margin-top:20px;
+	margin-bottom:20px;
+	text-transform:uppercase;	
+}
+p{
+	color:hsla(0, 0%, 100%, 0.60);
+	font-size:16px;
+	font-weight:400;
+	font-family: 'Fraunces', serif;
+	font-family: 'Lexend Deca', sans-serif;
+	margin-bottom:80px;
+	line-height:1.5rem;
+	
+}
+.container{
+	padding:30px;
+	width:18em;
+	
+}
+.sed{
+	background-color:hsl(31, 77%, 52%);
+	
+	
+	
+}
+.suv{
+	background-color:hsl(184, 100%, 22%);
+	
+
+}
+.lux{
+	background-color:hsl(179, 100%, 13%);
+	
+	
+}
+button{
+	width:60%;
+	cursor:pointer;
+	border:white solid 1px;
+	border-radius:25px;
+	padding:10px;
+	margin-left:15px;
+}
+.sedbutton{
+		color:hsl(31, 77%, 52%);
+}
+.luxbutton{
+		color:hsl(179, 100%, 13%);
+}
+.suvbutton{
+		color:hsl(184, 100%, 22%);
+}
+
+button:hover{
+	background-color: rgba(255, 255, 255, 0);
+	color:white;
+}
+ footer {
+		font-size: 11px; text-align: center; 
+		}
+    footer a {
+		color: hsl(228, 45%, 44%); 
+		}
+@media screen and (min-width:576px){
+	main {
+		justify-content:center;
+		flex-flow:row wrap;
+		padding:1rem
+	}
+	}
+	@media screen and (min-width:768px){
+	main {
+		justify-content:center;
+		flex-flow:row;
+		padding:1rem
+	}
+	.sed{
+		border-radius:10px 0 0 10px;
+	}
+	.lux{
+		border-radius:0px 10 10 0px;
+	}
+	}
